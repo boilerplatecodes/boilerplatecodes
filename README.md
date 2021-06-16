@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+The intention of this project is to have a collection of boilerplate codes to initialize a project. A boilerplate code for example could be an Express.js project for REST API or a clean React.js project or anything you think would be useful to others or is a better way to initialize a project.
+
+The plan is to have a branch for each boilerplate code. So `clean-react` could be a branch or `clean-react-with-test` or `express-with-REST` or anything you think could be useful.
+
+
+> **_NOTE:_** A better solution for implementation is always welcomed.
