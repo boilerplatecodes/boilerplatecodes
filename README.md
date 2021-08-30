@@ -21,3 +21,17 @@ The plan is to have a branch for each boilerplate code. So `clean-react` could b
 
 
 > **_NOTE:_** A better solution for implementation is always welcomed.
+
+# Getting started
+
+- Clone the repo.
+```
+git clone https://github.com/boilerplatecodes/boilerplatecodes.git
+```
+- Or use the `--branch` flag to clone specific branch
+```
+git clone --branch <your_branch_name> https://github.com/boilerplatecodes/boilerplatecodes.git
+```
+
+- Rename the `bolierplatecodes` folder to whatever you want to name your project.
+- Inside `package.json` change the `"name"` property to your project name
