@@ -11,12 +11,13 @@ This is an express app that provides out of the box express route handling, stan
 ```
 git clone -b express-mongodb https://github.com/boilerplatecodes/boilerplatecodes.git
 ```
-2. Remove `git` from the project and initialze as a new git project.
+2. Change the folder name to your project name. 
+3. Go inside the project and inside `package.json` change the `name` property to your project name.
+4. Remove `git` from the project and initialze as a new git project.
 ```
 rm -rf .git
 git init
 ```
-3. Change the folder name to your project name. Also inside `package.json` change the `name` property to your project name.
 4. Install dependencies.
 ```
 npm i
