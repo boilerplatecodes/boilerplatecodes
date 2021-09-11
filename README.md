@@ -22,6 +22,8 @@ npm i
 rm -rf .git
 git init
 ```
+If you want you can commit your changes here.
+
 6. Create a `config.env` in root directory and set the basic configurations
 ```
 PORT=4567
@@ -34,7 +36,7 @@ npm start
 ```
 > **_NOTE:_**  If connecting to local database, MongoDB must be installed and running.
 
-    The console should now be saying
+The console should now be saying
 ```
 App running on port 4567
 MongoDB database connected.
