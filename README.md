@@ -13,22 +13,22 @@ git clone -b express-mongodb https://github.com/boilerplatecodes/boilerplatecode
 ```
 2. Change the folder name to your project name. 
 3. Go inside the project and inside `package.json` change the `name` property to your project name.
-4. Remove `git` from the project and initialze as a new git project.
-```
-rm -rf .git
-git init
-```
 4. Install dependencies.
 ```
 npm i
 ```
-5. Create a `config.env` in root directory and set the basic configurations
+5. Remove `git` from the project and initialze as a new git project.
+```
+rm -rf .git
+git init
+```
+6. Create a `config.env` in root directory and set the basic configurations
 ```
 PORT=4567
 DATABASE=
 DATABASE_LOCAL=mongodb://localhost:27017/test
 ``` 
-6. Start the project.
+7. Start the project.
 ```
 npm start
 ```
@@ -40,5 +40,5 @@ App running on port 4567
 MongoDB database connected.
 ```
 
-7. Now you can the test the API endpoints present in `app.js` or start building your MVC based express app.
-8. Delete `resource-name` or `resourceName` refrences and files for a clean app. Or keep them as a refrence to build the application. Or replace `resource-name` or `resourceName` with the name of your resource, for example `user` or `item` etc.
+8. Now you can the test the API endpoints present in `app.js` or start building your MVC based express app.
+9. Delete `resource-name` or `resourceName` refrences and files for a clean app. Or keep them as a refrence to build the application. Or replace `resource-name` or `resourceName` with the name of your resource, for example `user` or `item` etc.
