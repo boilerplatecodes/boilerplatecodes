@@ -13,7 +13,7 @@ This is an express app that provides out of the box express route handling, stan
 1. Clone the repository.
 
 ```
-git clone -b express-mongodb https://github.com/boilerplatecodes/boilerplatecodes.git
+git clone -b express-mongodb-with-error-handling https://github.com/boilerplatecodes/boilerplatecodes.git
 ```
 
 2. Change the folder name to your project name.
